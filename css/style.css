@@ -1,0 +1,11 @@
+#introContainer {
+    background-image: url(../images/laptop.svg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+}
+
+#introTekst {
+    text-align: center;
+    align-self: flex-end;
+}
