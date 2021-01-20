@@ -10,6 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- js voor bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+    <!-- Google font Montserat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- NAVBAR -->
@@ -27,16 +34,16 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cursisten</a>
+                            <a class="nav-link" href="#cursisten">Cursisten</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Opleiding</a>
+                            <a class="nav-link" href="#opleiding">Opleiding</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Leerprogramma</a>
+                            <a class="nav-link" href="#leerprogramma">Leerprogramma</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Jobdag</a>
+                            <a class="nav-link" href="#jobdag">Jobdag</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -51,7 +58,7 @@
 
     <!-- MAIN -->
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div id="introContainer" class="col-12 col-md-8 col-lg-6 mx-auto">
                 <!-- <img src="images/laptop.svg" class="img-fluid" alt="onze 12 cursisten"> -->
                 <div id="introTekst">
@@ -61,13 +68,448 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <h1>Test</h1>
+        <!-- CURSISTEN -->
+        <div id="cursisten" class="row mb-5">
+            <div class="col-12 col-lg-8 mx-auto">
+                <h2 class="text-center">De cursisten</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nobis labore et delectus omnis corrupti ratione dolorem quam eaque, tempore sit adipisci non repellat quisquam quidem, excepturi id ab unde nemo corporis. Laudantium cupiditate, iste doloremque quam saepe modi repellat quod accusantium quis repellendus. Esse error asperiores necessitatibus eaque qui.</p>
             </div>
         </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-5 mb-5">
+            <!-- ALEXANDROS -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Alexandros Apelyan">
+                    <div class="card-body">
+                        <h5 class="card-title">Alexandros Apelyan</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Alexandros. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ARNAN -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Arnan Ruen-Ngeun">
+                    <div class="card-body">
+                        <h5 class="card-title">Arnan Ruen-Ngeun</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Arnan. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- CEDRIC -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Cédric Jacquemyn">
+                    <div class="card-body">
+                        <h5 class="card-title">Cédric Jacquemyn</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Cédric. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- FEMKE -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avataaars-default-vrouw.svg" class="card-img-top" alt="Femke Gielen">
+                    <div class="card-body">
+                        <h5 class="card-title">Femke Gielen</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over ons Femke. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- GLENN G -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Glenn Guldentops">
+                    <div class="card-body">
+                        <h5 class="card-title">Glenn Guldentops</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Glenn G. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- GLENN V -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Glenn Verlinden">
+                    <div class="card-body">
+                        <h5 class="card-title">Glenn Verlinden</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Glenn V. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- JONATHAN -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Jonathan Billen">
+                    <div class="card-body">
+                        <h5 class="card-title">Jonathan Billen</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Jonathan. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- JOY -->
+            <div class="col-12 col-md-6 col-lg-4 mx-auto">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/avataaars-default-vrouw.svg" class="card-img-top" alt="Joy Van Vlierberghe">
+                    <div class="card-body">
+                        <h5 class="card-title">Joy Van Vlierberghe</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over ons Joy. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- KEVIN -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Kevin Vanaerschodt">
+                    <div class="card-body">
+                        <h5 class="card-title">Kevin Vanaerschodt</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Kevin. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- MAXIM -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Maxim Ruysch">
+                    <div class="card-body">
+                        <h5 class="card-title">Maxim Ruysch</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Maxim. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- MELISSA -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avataaars-default-vrouw.svg" class="card-img-top" alt="Melissa Jans">
+                    <div class="card-body">
+                        <h5 class="card-title">Melissa Jans</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over ons Melissa. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sieber -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Sieber Bulteel">
+                    <div class="card-body">
+                        <h5 class="card-title">Sieber Bulteel</h5>
+                        <p class="card-text">
+                            Hier komt een kort tekstje over onze Sieber. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                    <p><strong>Lijstje met skills ofzo?</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skill 1</li>
+                            <li class="list-group-item">Skill 2</li>
+                            <li class="list-group-item">Skill 3</li>
+                        </ul>
+                    </div>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                        <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- OPLEIDING -->
+        <div id="opleiding" class="row mb-5">
+            <div class="col-12 col-lg-8 mx-auto">
+                <h2 class="text-center">De opleiding</h2>
+                <p>Een woordje uitleg over de opleiding. Placeat nobis labore et delectus omnis corrupti ratione dolorem quam eaque, tempore sit adipisci non repellat quisquam quidem, excepturi id ab unde nemo corporis. Laudantium cupiditate, iste doloremque quam saepe modi repellat quod accusantium quis repellendus. Esse error asperiores necessitatibus eaque qui.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nobis labore et delectus omnis corrupti ratione dolorem quam eaque, tempore sit adipisci non repellat quisquam quidem, excepturi id ab unde nemo corporis. Laudantium cupiditate, iste doloremque quam saepe modi repellat quod accusantium quis repellendus. Esse error asperiores necessitatibus eaque qui.</p>
+                <p>Logo Multimedi - Logo Obelisk - Logo VDAB</p>
+            </div>
+        </div>
+
+        <!-- LEERPROGRAMMA -->
+        <div id="leerprogramma" class="row mb-5">
+            <div class="col-12 col-lg-8 mx-auto">
+                <h2 class="text-center">Het leerprogramma?</h2>
+                <p class="mb-4">Een woordje uitleg over wat we geleerd hebben. Placeat nobis labore et delectus omnis corrupti ratione dolorem quam eaque, tempore sit adipisci non repellat quisquam quidem, excepturi id ab unde nemo corporis. Laudantium cupiditate, iste doloremque quam saepe modi repellat quod accusantium quis repellendus. Esse error asperiores necessitatibus eaque qui.</p>
+                <ul class="list-group list-group-horizontal-sm mb-4">
+                    <li class="list-group-item flex-fill"><i class="fab fa-angular fa-2x"></i> Angular</li>
+                    <li class="list-group-item flex-fill"><i class="fab fa-bootstrap fa-2x"></i> Bootstrap</li>
+                    <li class="list-group-item flex-fill"><i class="fab fa-css3-alt fa-2x"></i> CSS</li>
+                    <li class="list-group-item flex-fill"><i class="fab fa-html5 fa-2x"></i> HTML 5</li>
+                </ul>
+                <ul class="list-group list-group-horizontal-md">
+                    <li class="list-group-item flex-fill"><img src="images/ionic-logo.svg"> Ionic</li>
+                    <li class="list-group-item flex-fill"><i class="fab fa-js-square fa-2x"></i> Javascript</li>
+                    <li class="list-group-item flex-fill"><i class="fab fa-sass fa-2x"></i> Sass</li>
+                    <li class="list-group-item flex-fill"><i class="fas fa-database fa-2x"></i> SQL</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- LESGEVERS -->
+        <div id="lesgevers" class="row mb-3">
+            <div class="col-12 col-lg-8 mx-auto">
+                <h2 class="text-center">De lesgevers?</h2>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 col-md-6 mx-auto">
+                <div class="row row-cols-1 row-cols-md-2 g-5">
+                    <!-- ELINE -->
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/avataaars-default-vrouw.svg" class="card-img-top" alt="Eline Vanden Eynden">
+                            <div class="card-body">
+                                <h5 class="card-title">Eline Vanden Eynden</h5>
+                                <p class="card-text">
+                                    Hier komt een kort tekstje over Eline. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                                </p>
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                                <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WESLEY -->
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Wesley Knuts">
+                            <div class="card-body">
+                                <h5 class="card-title">Wesley Knuts</h5>
+                                <p class="card-text">
+                                    Hier komt een kort tekstje over Wesley. Spreken best een aantal karakters af voor dit tekstje zodat ze bij iedereen even lang zijn.
+                                </p>
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="card-link"><i class="fab fa-github-square fa-2x"></i> github</a>
+                                <a href="#" class="card-link"><i class="fab fa-linkedin fa-2x"></i> linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JOBDAG -->
+        <div id="jobdag" class="row mb-5">
+            <div class="col-12 col-lg-8 mx-auto">
+                <h2 class="text-center">De jobdag - 26 februari 2021</h2>
+                <p>Woordje uitleg over hoe de jobdag gaat verlopen. Placeat nobis labore et delectus omnis corrupti ratione dolorem quam eaque, tempore sit adipisci non repellat quisquam quidem, excepturi id ab unde nemo corporis. Laudantium cupiditate, iste doloremque quam saepe modi repellat quod accusantium quis repellendus. Esse error asperiores necessitatibus eaque qui.</p>
+                <p><strong>Praktisch:</strong></p>
+                <ul>
+                    <li>
+                        9u00: Kort woordje over de opstart. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        9u30: Kort woordje over de individuele gesprekken. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        12u30: Middagpauze.
+                    </li>
+                    <li>
+                        13u00: Vervolg gesprekken.
+                    </li>
+                    <li>
+                        16u00: Kort woordje over de afsluit.
+                    </li>
+                </ul>
+                <p class="mb-4">
+                    Na inschrijving wordt er per e-mail een link gestuurd om deel te nemen aan de sessie.
+                </p>
+                <h2 class="text-center">Inschrijven</h2>
+                <form id="inschrijvingsformulier" class="row g-3">
+                    <p><strong>Uw gegevens:</strong></p>
+                    <div class="col-md-6">
+                        <label for="inputCompanyName" class="form-label">Bedrijfsnaam</label>
+                        <input type="name" class="form-control" id="inputCompanyName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputContactName" class="form-label">Contactpersoon</label>
+                        <input type="name" class="form-control" id="inputContactName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPhone" class="form-label">Tel/GSM</label>
+                        <input type="phone" class="form-control" id="inputPhone">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea" class="form-label">Opmerkingen</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea" rows="6"></textarea>
+                      </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Schrijf je in</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        
     </div>
     <!-- EINDE MAIN -->
+
+    <!-- FOOTER -->
+    <div class="container-fluid bg-dark pt-3">
+        <footer class="container">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+                    <small class="d-block mb-3 text-light">© 2021</small>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

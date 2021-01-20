@@ -1,3 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
 #introContainer {
     background-image: url(../images/laptop.svg);
     background-repeat: no-repeat;
@@ -8,4 +15,8 @@
 #introTekst {
     text-align: center;
     align-self: flex-end;
+}
+
+a {
+    text-decoration: none!important;
 }
