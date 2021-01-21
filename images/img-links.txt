@@ -1,0 +1,26 @@
+Melissa:
+<img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairFrida&accessoriesType=Blank&facialHairType=Blank&clotheType=Overall&clotheColor=Pink&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Tongue&skinColor=Pale' />
+
+Jonathan:
+<img src='https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=BeardMedium&facialHairColor=Black&clotheType=Hoodie&clotheColor=Gray02&eyeType=Wink&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light'
+/>
+
+Cedric:
+<img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Happy&eyebrowType=Default&mouthType=Twinkle&skinColor=Pale'
+/>
+
+Glenn G:
+<img src='https://avataaars.io/?avatarStyle=Transparent&topType=NoHair&accessoriesType=Prescription02&facialHairType=BeardMedium&facialHairColor=BrownDark&clotheType=Hoodie&clotheColor=Black&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light'
+/>
+
+Maxim:
+<img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Twinkle&skinColor=Pale'
+/>
+
+Glenn V:
+<img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Blonde&facialHairType=BeardLight&facialHairColor=Blonde&clotheType=BlazerSweater&eyeType=Squint&eyebrowType=Default&mouthType=Twinkle&skinColor=Light'
+/>
+
+Joy:
+<img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Pizza&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Light'
+/>
