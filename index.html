@@ -20,11 +20,13 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg mb-5">
+        <div class="container">
             <!-- wil ik hier nog in een container steken, maar dan verspringt logo boven navs -->
                 <!-- <div class="container"> -->
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" alt="logo hybride mobiele app ontwikkelaar" width="60">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -59,15 +61,21 @@
     <!-- MAIN -->
     <div class="container">
         <div class="row mb-5">
-            <div id="introContainer" class="col-12 col-md-8 col-lg-6 mx-auto">
-                <!-- <img src="images/laptop.svg" class="img-fluid" alt="onze 12 cursisten"> -->
-                <div id="introTekst">
-                    <h1>Hallo wereld!</h1>
-                    <p>Hier een korte intro over dat we een vetcoole groep zijn en dat het stom van de bedrijven zou zijn om ons niet allemaal onmiddellijk een vast, dik betaald contract aan te bieden.</p>
-                    <button class="btn btn-primary" type="submit">Check de cursisten</button>
+            <div id="introContainer" class="col mx-auto">
+                <img src="images/introVormAchtergrond.svg" alt="vreemde vorm" class="vorm">
+                <div class="row">
+                    <div id="introTekst" class="col-12 col-md-6 px-5">
+                        <h1>Hallo wereld!</h1>
+                        <p>Hier een korte intro over dat we een vetcoole groep zijn en dat het stom van de bedrijven zou zijn om ons niet allemaal onmiddellijk een vast, dik betaald contract aan te bieden.</p>
+                        <button class="btn btn-primary" type="submit">Check de cursisten</button>
+                    </div>
+                    <div id="introAfbeelding" class="col-12 col-md-6 text-left">
+                        <img src="images/laptop.svg" alt="onze 12 cursisten" width="550">
+                    </div>
                 </div>
             </div>
         </div>
+
         <!-- CURSISTEN -->
         <div id="cursisten" class="row mb-5">
             <div class="col-12 col-lg-8 mx-auto">
@@ -175,7 +183,7 @@
             <!-- GLENN G -->
             <div class="col">
                 <div class="card">
-                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Glenn Guldentops">
+                    <img src="images/glenng-avatar-rond.svg" class="card-img-top" alt="Glenn Guldentops">
                     <div class="card-body">
                         <h5 class="card-title">Glenn Guldentops</h5>
                         <p class="card-text">
@@ -223,7 +231,7 @@
             <!-- JONATHAN -->
             <div class="col">
                 <div class="card">
-                    <img src="images/avatar-sieber-rond.svg" class="card-img-top" alt="Jonathan Billen">
+                    <img src="images/jonathan-avatar-rond.svg" class="card-img-top" alt="Jonathan Billen">
                     <div class="card-body">
                         <h5 class="card-title">Jonathan Billen</h5>
                         <p class="card-text">
@@ -246,7 +254,7 @@
             </div>
             <!-- JOY -->
             <div class="col-12 col-md-6 col-lg-4 mx-auto">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="images/joy-avatar.svg" class="card-img-top" alt="Joy Van Vlierberghe">
                     <div class="card-body">
                         <h5 class="card-title">Joy Van Vlierberghe</h5>
@@ -373,8 +381,20 @@
                 <p>Een woordje uitleg over de opleiding. Placeat nobis labore et delectus omnis corrupti ratione dolorem quam eaque, tempore sit adipisci non repellat quisquam quidem, excepturi id ab unde nemo corporis. Laudantium cupiditate, iste doloremque quam saepe modi repellat quod accusantium quis repellendus. Esse error asperiores necessitatibus eaque qui.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nobis labore et delectus omnis corrupti ratione dolorem quam eaque, tempore sit adipisci non repellat quisquam quidem, excepturi id ab unde nemo corporis. Laudantium cupiditate, iste doloremque quam saepe modi repellat quod accusantium quis repellendus. Esse error asperiores necessitatibus eaque qui.</p>
                 <p>Logo Multimedi - Logo Obelisk - Logo VDAB</p>
+                <div class="row">
+                    <div class="col-12 col-md-4 mx-auto">
+                        <img class="img-fluid" src="images/logo-multimedi.png" alt="logo Multimedi">
+                    </div>
+                    <div class="col-12 col-md-4 mx-auto">
+                        <img class="img-fluid" src="images/logo-obelisk.png" alt="logo Obelisk">
+                    </div>
+                    <div class="col-12 col-md-4 mx-auto">
+                        <img class="img-fluid" src="images/logo-multimedi.png" alt="logo multimedi">
+                    </div>
+                </div>
             </div>
         </div>
+        
 
         <!-- LEERPROGRAMMA -->
         <div id="leerprogramma" class="row mb-5">

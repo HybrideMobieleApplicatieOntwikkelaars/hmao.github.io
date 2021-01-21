@@ -1,20 +1,48 @@
+.navbar .navbar-nav li a {
+    color: #233B37;
+}
+
 h1, h2, h3, h4, h5, h6 {
+    color: #233B37;
     font-family: 'Montserrat',sans-serif;
     margin: 0;
     text-transform: uppercase;
     line-height: 1em;
 }
 
+#introTekst .btn-primary, #jobdag .btn-primary {
+    color: #fff;
+    background-color: #41907F;
+    border-color: #41907F;
+}
+
+#introContainer .vorm {
+        position: absolute;
+        right: -250px;
+        max-width: none;
+        top: -297px;
+        z-index: -10;
+}
+
 #introContainer {
-    background-image: url(../images/laptop.svg);
-    background-repeat: no-repeat;
-    height: 80vh;
-    display: flex;
+    
+}
+
+#introAfbeelding {
+    height: 50vh;
+}
+
+#introAfbeelding img {
+    height: 500px;
 }
 
 #introTekst {
     text-align: center;
-    align-self: flex-end;
+    align-self: center;
+}
+
+#cursisten .card .card-img-top img {
+    max-width: 150px;
 }
 
 a {
