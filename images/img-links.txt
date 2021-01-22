@@ -24,3 +24,6 @@ Glenn V:
 Joy:
 <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=Blank&clotheType=GraphicShirt&clotheColor=Black&graphicType=Pizza&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Light'
 />
+
+Kevin:
+'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Surprised&eyebrowType=FlatNatural&mouthType=Serious&skinColor=Light'
