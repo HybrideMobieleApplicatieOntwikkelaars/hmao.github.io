@@ -1,9 +1,28 @@
+body {
+    overflow-x: hidden;
+}
+
 .navbar .navbar-nav li a {
-    color: #233B37;
+    color: rgb(40, 70, 80);
+}
+
+.navbar .navbar-nav li a:hover {
+    color: rgb(70, 150, 150);
 }
 
 .navbar-toggler-icon {
     z-index: 10;
+}
+
+.navbar .btn-outline-success {
+    color: rgb(40, 70, 80);
+    border-color: rgb(40, 70, 80);
+}
+
+.navbar .btn-outline-success:hover {
+    color: #fff;
+    background-color: rgb(40, 70, 80);
+    border-color: rgb(40, 70, 80);
 }
 
 h1, h2, h3, h4, h5, h6 {
