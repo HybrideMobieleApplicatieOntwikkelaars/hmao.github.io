@@ -114,19 +114,12 @@ i {
     position: relative;
 }
 
-#jobdagContainer .vorm {
-    position: absolute;
-    left: 650px;
-    top: -220px;
-    z-index: -10;
+#jobdagContainer{
+background-image: url(/images/jobdagVormAchtergrond.svg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
 }
-
-/* #jobdagAfbeelding .vorm{
-    position: absolute;
-    left: 650px;
-    top: -220px;
-    z-index: -10;
-} */
 
 li::marker {
     color: rgb(75, 170, 170);
