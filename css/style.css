@@ -16,16 +16,16 @@ body {
     right: 15px;
     z-index: 99;
     border: none;
-    outline: none; 
-    background-color:  rgb(40, 70, 80); 
-    cursor: pointer;  
-    border-radius: 50%; 
-    font-size: 15px; 
-  }
-  
-  #myBtn:hover {
+    outline: none;
+    background-color: rgb(40, 70, 80);
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+#myBtn:hover {
     background-color: rgb(70, 150, 150); /* Add a dark-grey background on hover */
-  }
+}
 
 .navbar .navbar-nav li a {
     color: rgb(40, 70, 80);
@@ -50,9 +50,14 @@ body {
     border-color: rgb(40, 70, 80);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: rgb(70, 150, 150);
-    font-family: 'Montserrat',sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     text-transform: uppercase;
     line-height: 1em;
@@ -66,13 +71,15 @@ h1, h2, h3, h4, h5, h6 {
     z-index: -10;
 }
 
-#introContainer .btn-primary, #jobdagMain .btn-primary {
+#introContainer .btn-primary,
+#jobdagMain .btn-primary {
     color: #fff;
     background-color: rgb(75, 170, 170);
     border-color: rgb(75, 170, 170);
 }
 
-#introContainer .btn-primary:hover, #jobContainer .btn-primary:hover {
+#introContainer .btn-primary:hover,
+#jobContainer .btn-primary:hover {
     color: #fff;
     background-color: rgb(70, 150, 150);
     border-color: rgb(70, 150, 150);
@@ -84,11 +91,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-img-top {
-    max-width: 300px!important;
+    max-width: 300px !important;
 }
 
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .card-img-top {
@@ -114,11 +121,13 @@ i {
     position: relative;
 }
 
-#jobdagContainer{
-background-image: url(/images/jobdagVormAchtergrond.svg);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: right;
+@media (min-width: 1200px) {
+    #jobdagContainer {
+        background-image: url(/images/jobdagVormAchtergrond.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
 }
 
 li::marker {
@@ -126,5 +135,5 @@ li::marker {
 }
 
 #footer {
-    background-color:rgb(40, 70, 80);
+    background-color: rgb(40, 70, 80);
 }
